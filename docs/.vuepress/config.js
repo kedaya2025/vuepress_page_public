@@ -1,7 +1,10 @@
 import { defineUserConfig } from 'vuepress'
 import { defaultTheme } from '@vuepress/theme-default'
+import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
+  // 指定 bundler
+  bundler: viteBundler(),
   // 网站的基本信息
   title: '我的 VuePress 网站',
   description: '使用 VuePress 构建的静态网站',
