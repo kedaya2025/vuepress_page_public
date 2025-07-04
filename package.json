@@ -1,0 +1,24 @@
+{
+  "name": "my-vuepress-site",
+  "version": "1.0.0",
+  "description": "My VuePress static site",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "gh-pages -d docs/.vuepress/dist"
+  },
+  "keywords": [
+    "vuepress",
+    "static-site",
+    "documentation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-rc.14",
+    "@vuepress/client": "^2.0.0-rc.14",
+    "@vuepress/theme-default": "^2.0.0-rc.14",
+    "gh-pages": "^6.1.0"
+  }
+}
