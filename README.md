@@ -57,7 +57,7 @@ npm run build
 
 1. 推送代码到 `main` 分支
 2. GitHub Actions 自动构建并部署到 GitHub Pages
-3. 访问网站：`https://kedaya2025.github.io/vuepress_page/`
+3. 访问网站：`https://kedaya2025.github.io/vuepress_page_public/`
 
 ## 📝 内容编辑
 
