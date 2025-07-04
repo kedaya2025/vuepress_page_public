@@ -7,7 +7,7 @@ export default defineUserConfig({
   description: '使用 VuePress 构建的静态网站',
   
   // GitHub Pages 部署配置
-  base: '/page/',
+  base: '/vuepress_page/',
   
   // 主题配置
   theme: defaultTheme({
@@ -45,7 +45,7 @@ export default defineUserConfig({
     },
     
     // 仓库配置
-    repo: 'your-username/page',
+    repo: 'kedaya2025/vuepress_page',
     repoLabel: 'GitHub',
     
     // 编辑链接
